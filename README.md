@@ -7,3 +7,9 @@ Disusun Oleh Kelompok 6 :
 ## Pendahuluan
 - Klasifikasi terkena PCOS atau tidak dengan genetic algorithm
 - Dengan 39 features dan total sampel 541
+- Bagaimana mengoptimasi pembobotan yang digunakan pada SVM, KNN, Regresi, dan Decision Tree untuk menentukan klasifikasi PCOS atau tidak
+- Genetic Algorithm digunakan untuk menentukan pembobotan pada node di semua layer dan metode yang digunakan untuk menentukan klasifikasi PCOS atau tidak
+## Implementasi
+Secara garis besar, tahapan implementasi klasifikasi PCOS dengan genetic algorithm dilakukan sebagai berikut :
+1. Import dataset yang diperlukan seperti fungsi untuk pemisahan data, mengimpor berbagai model klasifikasi, dan metrik untuk mengevaluasi kinerjanya.
+2. Kemudian terdapat fungsi untuk mengevaluasi keakuratan berbagai pengklasifikasi pada kumpulan data tertentu serta untuk membandingkan performa berbagai pengklasifikasi dengan cepat pada kumpulan data tertentu.
